@@ -1,0 +1,30 @@
+Visual Sort 3D 0.1.0
+
+A 3D visualizer of various sorting algorithms
+
+Homepage:
+    http://code.google.com/p/mycodeplayground/
+
+Author:
+    Xueqiao Xu <xueqiaoxu@gmail.com>
+
+License:
+    MIT License
+
+Description:
+    This is a 3D visualizer of the following sorting algorithms.
+        1. Bubble Sort
+        2. Cocktail Sort
+        3. Odd-even Sort
+        4. Comb Sort
+        5. Gnome Sort
+        6. Quick Sort
+        7. Selection Sort
+        8. Heap Sort
+        9. Cycle Sort
+        10. Insertion Sort
+        11. Shell Sort
+
+Dependencies:
+    Python 2.7
+    VPython 5.0+ (http://vpython.org)

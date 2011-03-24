@@ -1,0 +1,68 @@
+Path Finding Demo 0.1.1
+
+Project HomePage: 
+    http://code.google.com/p/mycodeplayground/
+
+Code License:
+    MIT License
+
+Author: 
+    Xueqiao Xu <xueqiaoxu@gmail.com>
+    http://about.me/xueqiaoxu
+
+Description:
+    This is a demo visualizing the execution of various path finding algorithms.
+
+    Curently five algorithms are included:
+        1. A* (using Manhattan distance)
+        2. A* (using Euclidean distance)
+        3. A* (using Chebyshev distance)
+        4. Dijkstra 
+        5. Bi-Directional Breadth-First-Search 
+
+    This is a Client/Server application. You should start the server first 
+    and then the client. 
+    Also, you can start the server on one machine and run the client on a 
+    different machine, as long as the two machines are connected. 
+    Meanwhile, The server is capable of handling multiple concurrent requests. 
+
+Dependencies:
+    Python 2.6+ (2.5 and 3.x is not supported)
+    Pygame (http://pygame.org/download.shtml)
+
+Usage:
+    If you already have the .py filetype associated with the correct 
+    Python interpreter (This is usually done on Windows and MacOS once
+    Python is installed), simply double click on server.py and client.py.
+
+    Otherwise, open your terminal, navigate to the folder containing the
+    source files, and execute:
+        python server.py
+    Open another terminal, and execute:
+        python client.py
+
+    By default, the server starts on 127.0.0.1(localhost) and uses the 
+    port 31416.
+    If you want to specify another port, add options while executing
+    the server.py.
+    For example:
+        python server.py -p 27183
+    
+    As stated in the description section above, you can start the server on
+    one machine and start the client on another machine, as long as these
+    two machines are connected. If you want to connect to a remote server,
+    add options while executing the client.
+    For example:
+        python client.py -a 172.18.241.2 -p 27183
+
+Updates:
+    version 0.1.1 Feb 17 2011
+    Add: If client fails to connect to the server, it will continuously 
+         attemp to connect every 5 seconds. Related Notification is also added.
+    Add: Window icons.
+    Fix: Asynchat related message queue issue.
+    Fix: Working directory related issue.
+    Chg: Refactored some codes, and added more documents and comments.
+
+    version 0.1.0 Feb 12 2011
+    First version of Path Finding
