@@ -1,0 +1,18 @@
+Flock Simulation Using Particle Swarm Optimization
+
+Homepage:
+    http://code.google.com/p/mycodeplayground/
+
+Author:
+    Xueqiao Xu <xueqiaoxu@gmail.com>
+
+Description:
+    This is a simple simulation of flock using the Particle 
+    Swarm Optimization. The birds(red particles) will try to 
+    follow your mouse. 
+    If you want to know how the algorithm works, please refer to 
+    http://en.wikipedia.org/wiki/Particle_swarm_optimization
+   
+Dependencies:
+    Python 2.5+
+    Pygame (http://pygame.org/download.shtml)

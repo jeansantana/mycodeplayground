@@ -1,0 +1,32 @@
+Sudoku Solver
+
+Homepage:
+    http://code.google.com/p/mycodeplayground/
+
+Author:
+    Xueqiao Xu <xueqiaoxu@gmail.com>
+
+License:
+    MIT License
+    
+    File 'top95sudoku' contains 95 sample puzzles, and it's from
+        http://norvig.com/top95.txt
+
+Introduction:
+    This is a Sudoku solver using Algorithm X and Dancing Links, 
+    techniques suggested by Donald E. Knuth. 
+
+    *Note*: This program is only a solver; It's not playable. Feel 
+    free to modify it into a real game.
+
+    If you want to know more about the solving algorithm, refer to
+    the following links. They will be helpful.
+
+        http://www-cs-faculty.stanford.edu/~uno/papers/dancing-color.ps.gz
+        http://en.wikipedia.org/wiki/Algorithm_X
+        http://en.wikipedia.org/wiki/Dancing_Links
+        http://sudopedia.org/wiki/Dancing_Links
+
+Dependencies:
+    Python 2.6+ (3.x is not supported)
+    Pygame (http://pygame.org/download.shtml)
